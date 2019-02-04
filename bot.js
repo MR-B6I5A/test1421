@@ -8,12 +8,12 @@ function clean(text) {
         return text;
 }
 
-const prefix = "#";
+const prefix = "!";
 const token = "NTQxMzkwNDIwOTI0Njk0NTU5.DzmPHg.kSx5hYyDnPy2ff-W0VbjTuVA0ls";
 
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
-  client.user.setGame(`Support Magic |${prefix}new`);
+  client.user.setGame(`Support test |${prefix}new`);
 });
 
 
